@@ -1,0 +1,21 @@
+<section>
+    <h2><%= @url_info.url %></h2>
+    <div>
+        <%= label(:url_info, :title) %>
+        <span><%= @url_info.title %></span>
+    </div>
+    <div>
+        <%= label(:url_info, :description) %>
+        <span><%= @url_info.description %></span>
+    </div>
+    <div>
+        <%= label(:url_info, :updated_at) %>
+        <span><%= @url_info.updated_at %></span>
+    </div>
+    <% if @url_info.thumbnail_url.present? %>
+        <div>
+            <%= label(:url_info, :thumbnail_url) %><br />
+            <img src="<%= @url_info.thumbnail_url %>" />
+        </div>
+    <% end %>
+</section>

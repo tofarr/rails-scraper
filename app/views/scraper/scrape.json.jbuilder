@@ -1,0 +1,1 @@
+json.merge! @url_info.attributes

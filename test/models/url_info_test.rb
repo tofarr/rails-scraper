@@ -20,4 +20,6 @@ class UrlInfoTest < ActiveSupport::TestCase
     url_info = UrlInfo.create(url: "https://foobar.com", thumbnail_url: "not a valid url")
     assert url_info.errors.present?, "Saved a UrlInfo with an invalid Thumbnail Url"
   end
+
+  #TODO: Tests for scraper here - precedence is og tags first, then title, description...
 end
