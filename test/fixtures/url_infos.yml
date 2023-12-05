@@ -1,0 +1,12 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  url: https://some-site.com/foo
+  title: Foo
+  description: The subtle art of not giving a foo
+  thumbnail_url: https://some-site.com/imgs/foo.jpg
+
+two:
+  url: https://some.site.com/bar
+  title: Bar
+  description: The bar

@@ -22,3 +22,12 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+Commands used:
+
+rails new scraper
+
+rails generate model UrlInfo url:string:uniq title:string description:text thumbnail_url:string
+
+rails db:migrate 
